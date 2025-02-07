@@ -238,16 +238,17 @@
   max-width: 148px;
 }
 
-.about__title {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: uppercase;
-  margin: 130px 0 100px 0;
-}
 
 .on__auction {
   margin-left: 25px;
   padding-top: 10px;
+}
+
+.on__auction__tittle {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 130px 0 100px;
 }
 
 .on__auction p {
@@ -267,6 +268,7 @@
   margin-top: 180px;
   padding: 0 50px 82px;
 }
+
 .address_footer {
   justify-self: start;
 }
@@ -299,6 +301,7 @@
 .footer__social-link {
   list-style: none;
 }
+
 .footer__social-icon {
   width: 48px;
   height: 48px;

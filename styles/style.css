@@ -218,8 +218,6 @@
   margin: 120px 24px 0 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
-  width: 1052px;
-  height: 595px;
 }
 
 .about__logo {

@@ -62,12 +62,12 @@
 }
 
 .cover {
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 50px;
   position: relative;
   z-index: 1;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  height: 757px;
+  min-height: 757px;
   background-position: center;
   color: #fff;
   font-size: 100%;
@@ -93,10 +93,14 @@
 
 .aligned-text_center {
   text-align: center;
+  position: relative;
+  top: 15px;
 }
 
 .aligned-text_right {
   text-align: end;
+  position: relative;
+  top: 35px;
 }
 
 .description {
@@ -236,27 +240,23 @@
   max-width: 148px;
 }
 
-
-.on__auction {
+.about__text {
   margin-left: 25px;
   padding-top: 10px;
 }
 
-.on__auction__tittle {
+.about__text__tittle {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
   margin: 130px 0 100px;
 }
 
-.on__auction p {
+.about__text p {
   width: 694px;
   gap: 24px;
   font-size: 20px;
   line-height: 120%;
-}
-
-.on__auction p:last-child {
   margin-top: 24px;
 }
 
